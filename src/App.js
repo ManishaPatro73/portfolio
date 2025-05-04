@@ -10,7 +10,7 @@ import Contact from '../src/components/Contact';
 
 function App() {
   return (
-    <div className="App bg-primaryColor">
+    <div className="App bg-colorOne">
       <Header></Header>
       <Home></Home>
       <Experience></Experience>

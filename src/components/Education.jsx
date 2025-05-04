@@ -2,7 +2,7 @@ import EducationImage from '../image/educationImage.jpg';
 
 const Education = () => {
     return (
-        <section className="w-full flex items-center justify-center">
+        <section id={'education'} className="w-full flex items-center justify-center">
             <div className="container w-full flex items-center justify-between px-[100px] py-[100px]">
                 <div className="text-left w-[50%]">
                     <h2 className="text-2xl font-bold pb-10">Experience</h2>
