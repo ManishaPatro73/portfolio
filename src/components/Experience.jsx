@@ -1,13 +1,42 @@
-const Experience = () =>{
-    return(
+import EducationImage from '../image/educationImage.jpg'
+
+const Experience = () => {
+    return (
         <section className="w-full flex items-center justify-center">
-            <div className="container w-full flex items-center justify-between p-5">
-                <div className="">
-                    <h1>Hi I'm Manisha</h1>
+            <div className="container w-full flex items-center justify-between px-[100px] py-[100px]">
+                <div className="flex w-[50%]">
+                    <img src={EducationImage} width={650}></img>
                 </div>
-                <div className="">
-                <h1>Hi I'm Manisha</h1>
+                <div className="text-left w-[50%]">
+                    <h2 className="text-2xl font-bold pb-10">Education</h2>
+                    <div>
+                        <div className="pb-5">
+                            <div className="text-xl font-semibold">Consumer Insights Analyst</div>
+                            <div className="text-xl font-normal">Extern</div>
+                            <div className="text-xl font-thin">New york</div>
+                            <div className="text-xl font-thin">Jan 2025 to present</div>
+                        </div>
+                        <div className="pb-5">
+                            <div className="text-xl font-semibold">Consumer Insights Analyst</div>
+                            <div className="text-xl font-normal">Extern</div>
+                            <div className="text-xl font-thin">New york</div>
+                            <div className="text-xl font-thin">Jan 2025 to present</div>
+                        </div>
+                        <div className="pb-5">
+                            <div className="text-xl font-semibold">Consumer Insights Analyst</div>
+                            <div className="text-xl font-normal">Extern</div>
+                            <div className="text-xl font-thin">New york</div>
+                            <div className="text-xl font-thin">Jan 2025 to present</div>
+                        </div>
+                        <div className="pb-5">
+                            <div className="text-xl font-semibold">Consumer Insights Analyst</div>
+                            <div className="text-xl font-normal">Extern</div>
+                            <div className="text-xl font-thin">New york</div>
+                            <div className="text-xl font-thin">Jan 2025 to present</div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </section>
     )

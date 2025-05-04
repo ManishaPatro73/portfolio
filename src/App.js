@@ -13,11 +13,11 @@ function App() {
     <div className="App bg-primaryColor">
       <Header></Header>
       <Home></Home>
-      {/* <Experience></Experience>
+      <Experience></Experience>
       <Education></Education>
       <Projects></Projects>
       <Skills></Skills>
-      <Contact></Contact> */}
+      <Contact></Contact>
     </div>
   );
 }
