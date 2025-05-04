@@ -3,7 +3,7 @@ import { useState } from "react";
 const Projects = () => {
   const [activeProject, setActiveProject] = useState(1);
   return (
-    <section className="w-full flex items-center justify-center">
+    <section id={'projects'} className="w-full flex items-center justify-center">
       <div className="container w-full p-5 px-[100px] py-[100px]">
         <h2 className="text-2xl font-bold pb-10">Projects</h2>
         <div className="flex items-start w-full h-[500px]">

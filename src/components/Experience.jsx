@@ -3,7 +3,7 @@ import PopUp from './PopUp';
 
 const Experience = () => {
     return (
-        <section className="w-full flex items-center justify-center">
+        <section id={'experience'} className="w-full flex items-center justify-center">
             <div className="container w-full flex items-center justify-between px-[100px] py-[100px]">
                 <div className="flex w-[50%]">
                     <img src={EducationImage} width={650} alt={'background'}></img>

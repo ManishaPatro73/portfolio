@@ -2,7 +2,7 @@ import ProfileImage from '../image/profile.jpg'
 
 const Home = () => {
     return (
-        <section className="w-full flex items-center justify-center h-lvh">
+        <section id={'home'} className="w-full flex items-center justify-center h-lvh">
             <div className="container w-full flex items-center justify-between px-[100px] py-[100px]">
                 <div className="text-left w-[60%]">
                     <h1 className="pb-10 text-3xl font-bold">Hi I'm Manisha</h1>
