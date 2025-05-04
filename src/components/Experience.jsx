@@ -1,11 +1,12 @@
 import EducationImage from '../image/educationImage.jpg'
+import PopUp from './PopUp';
 
 const Experience = () => {
     return (
         <section className="w-full flex items-center justify-center">
             <div className="container w-full flex items-center justify-between px-[100px] py-[100px]">
                 <div className="flex w-[50%]">
-                    <img src={EducationImage} width={650}></img>
+                    <img src={EducationImage} width={650} alt={'background'}></img>
                 </div>
                 <div className="text-left w-[50%]">
                     <h2 className="text-2xl font-bold pb-10">Education</h2>
@@ -38,6 +39,7 @@ const Experience = () => {
                 </div>
 
             </div>
+            <PopUp></PopUp>
         </section>
     )
 }
