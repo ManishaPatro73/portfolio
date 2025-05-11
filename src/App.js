@@ -13,10 +13,10 @@ function App() {
       <Header></Header>
       <Home></Home>
       <Experience></Experience>
-      {/* <Education></Education> */}
-      {/* <Projects></Projects> */}
-      {/* <Skills></Skills> */}
-      {/* <Contact></Contact> */}
+      <Education></Education>
+      <Projects></Projects>
+      <Skills></Skills>
+      <Contact></Contact>
     </div>
   );
 }
