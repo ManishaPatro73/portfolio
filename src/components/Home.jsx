@@ -1,4 +1,5 @@
-import ProfileImage from '../image/profile.jpg'
+import ProfileImage from '../image/profile.jpg';
+import resumePdf from '../docs/Manisha_Patro_Resume.pdf';
 
 const Home = () => {
     return (
@@ -9,7 +10,7 @@ const Home = () => {
                     <div className="pb-5 text-lg">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
                     <div className="pb-10 text-lg">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
                     <div>
-                        <button className='border-2 border-colorThree flex items-center justify-center w-[100px] p-2 rounded-lg text-lg'>Resume</button>
+                        <a href={resumePdf} target="_blank" rel="noreferrer" className='border-2 border-colorThree flex items-center justify-center max-w-fit px-7 py-2 rounded-lg text-lg' download='Manisha_Patro_Resume'>Download Resume</a>
                     </div>
                 </div>
                 <div className="flex items-center justify-center w-[40%]">
