@@ -1,5 +1,5 @@
 import { useState } from "react";
-import EducationImage from "../image/educationImage.jpg";
+import EducationImage from "../image/education.jpg";
 import ArrowRightIcon from "../image/icons/top-right.png";
 import PopUp from "./PopUp";
 
@@ -65,8 +65,8 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="flex w-[50%]">
-          <img src={EducationImage} width={650} alt="EducationImage"></img>
+        <div className="flex items-center justify-center w-[50%]">
+          <img src={EducationImage} width={480} alt="EducationImage" className="grayscale border-4 border-colorThree rounded-lg"></img>
         </div>
       </div>
       <PopUp openPopUp={openEduPopUp} closePopUp={closePopUp}>

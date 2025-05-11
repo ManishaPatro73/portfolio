@@ -1,4 +1,4 @@
-import EducationImage from "../image/educationImage.jpg";
+import ExperienceImage from "../image/experience.jpg";
 import PopUp from "./PopUp";
 import { useState } from "react";
 import ArrowRightIcon from "../image/icons/top-right.png";
@@ -17,12 +17,12 @@ const Experience = () => {
       id={"experience"}
       className="w-full flex items-center justify-center"
     >
-      <div className="container w-full flex items-center justify-between px-[100px] py-[100px]">
-        <div className="flex w-[50%]">
-          <img src={EducationImage} width={650} alt={"background"}></img>
+      <div className="container w-full flex items-center justify-between px-[100px] py-[100px] z-10">
+        <div className="w-[50%] flex items-center justify-left">
+          <img src={ExperienceImage} width={480} alt={"background"} className="grayscale border-4 border-colorThree rounded-lg"></img>
         </div>
         <div className="text-left w-[50%]">
-          <h2 className="text-2xl font-bold pb-10">Education</h2>
+          <h2 className="text-2xl font-bold pb-10">Experience</h2>
           <div>
             <div
               className="pb-5 flex items-start gap-[10px] cursor-pointer w-fit group"
@@ -119,13 +119,35 @@ const Experience = () => {
             </div>
             <div className="text-xl font-normal pb-[5px]">Extern</div>
             <div className="text-xl font-thin pb-[5px]">New york</div>
-            <div className="text-xl font-thin pb-[5px]">Jan 2025 to present</div>
+            <div className="text-xl font-thin pb-[5px]">
+              Jan 2025 to present
+            </div>
             <div>
-                <div>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
-                <div>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
-                <div>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
-                <div>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
-                <div>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
+              <div>
+                Lorem ipsum is placeholder text commonly used in the graphic,
+                print, and publishing industries for previewing layouts and
+                visual mockups.
+              </div>
+              <div>
+                Lorem ipsum is placeholder text commonly used in the graphic,
+                print, and publishing industries for previewing layouts and
+                visual mockups.
+              </div>
+              <div>
+                Lorem ipsum is placeholder text commonly used in the graphic,
+                print, and publishing industries for previewing layouts and
+                visual mockups.
+              </div>
+              <div>
+                Lorem ipsum is placeholder text commonly used in the graphic,
+                print, and publishing industries for previewing layouts and
+                visual mockups.
+              </div>
+              <div>
+                Lorem ipsum is placeholder text commonly used in the graphic,
+                print, and publishing industries for previewing layouts and
+                visual mockups.
+              </div>
             </div>
           </div>
         </div>
