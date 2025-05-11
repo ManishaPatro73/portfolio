@@ -8,7 +8,7 @@ const Header = () => {
     }
   };
   return (
-    <div className="sticky top-0 flex items-center justify-between px-10 py-5 shadow-md bg-colorOne z-1">
+    <div className="sticky top-0 flex items-center justify-between px-10 py-5 shadow-md bg-colorOne z-20">
       <div className="text-lg text-colorThree font-bold cursor-pointer" onClick={() => scrollToSection("home")}>MANISHA PATRO</div>
       <div className="flex items-center gap-10">
         <div
